@@ -17,12 +17,31 @@ texto_2 = '7'
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
 
+if len(texto_1) > len(texto_2):
+    print('{} es mayor que {}'.format(texto_1, texto_2))
+else:
+    print('{} es mayor que {}'.format(texto_2, texto_1))
+
+# lo hago de estas dos formas para que me puedan indicar cual seria la mas conveniente. gracias
+
+if len(texto_1) > len(texto_2):
+    print('5 es mayor alfabeticamente que 7')
+else:
+    print('7 es mayor alfabeticamente que 5')
+
 # 2-Transforma esas variables tipo texto en variables numéricas con (int)
 # y almacénalas en nuevas variables.
 # Compare las nuevas variables para ver cual es mayor o menor
 # utilizando los operadores correspondientes
 # ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+
+
+if int(texto_1) > int(texto_2):
+    print('{} es mayor que {}'.format(texto_1, texto_2))
+else:
+    print('{} es mayor que {}'.format(texto_2, texto_1))
+
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
